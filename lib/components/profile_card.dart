@@ -13,7 +13,7 @@ class ProfileCard extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => ProfileScreen(user: me),
+            builder: (context) => ProfileScreen(user: user),
           ),
         );
       },

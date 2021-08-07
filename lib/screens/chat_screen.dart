@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class ChatScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text("ChatScreen"),
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(),
     );
   }
 }
