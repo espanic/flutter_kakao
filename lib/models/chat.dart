@@ -31,4 +31,11 @@ List<Chat> chats = [
     time: "오전 09:30",
     count: "1",
   ),
+  Chat(
+    image: "${_urlPrefix}_man_2.jpg",
+    title: "박태수",
+    content: "왜 그래? 오늘 따라 좀 이상하네",
+    time: "오전 09:35",
+    count: "1",
+  ),
 ];
